@@ -1,0 +1,23 @@
+% 网页设计学习
+\documentclass[a4paper,GBK,10pt]{ctexart}
+\usepackage{listings}
+\begin{document}
+\title{网页设计学习笔记}
+\author{李青桂}
+\date{}
+\maketitle
+\part{html}
+\section{html介绍}
+\subsection{html是什么}
+HTML(HyperText Mark-up Language)即超文本标记语言或超文本链接标示语言，是构成网页文档的主要语言。HTML 的结构包括头部(Head)、主体(Body)两大部分，其中头部描述浏览器所需的信息，而主体则包含所要说明的具体内容。
+\subsection{w3c介绍}
+W3C是英文World Wide Web Consortium的缩写，中文意思是W3C理事会或万维网联盟。W3C是对网络标准制定的一个非盈利组织，HTML、XHTML、CSS、XML的标准就由其定制。
+\subsection{html运行原理}
+\subsubsection{本地运行}
+直接使用浏览器打开html文件。
+\subsubsection{远程访问运行}
+html文件放在一个已经启动的服务器上，其他人员通过浏览器访问。
+\subsection{html的基本结构}
+基本结构式：\textless 元素名 \quad 属性=``属性值"\textgreater 元素内容\textless /元素名
+\textgreater
+\end{document}
